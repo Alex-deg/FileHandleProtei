@@ -1,16 +1,22 @@
 #include <string>
 #include <fstream>
+#include <iostream>
 
-class FileHandler{
-
-private:
+struct fileInfo
+{
     std::string path = "";
     int offset = 0;
+    std::fstream file;
+};
+
+
+class FileHandler{
+private:
+    fileInfo fi;
 public:
-
+    FileHandler(std::string path);
     std::string readLine();
-    void writeLine();
-
-    void setPath(std::string path);
-
+    void writeLine(std::string data);
+    void resetOffset();
+    ~FileHandler();
 };

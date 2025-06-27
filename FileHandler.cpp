@@ -1,16 +1,33 @@
 #include "FileHandler.h"
 
-std::string FileHandler::readLine(){
-    std::ifstream file;
+FileHandler::FileHandler(std::string path){
+    fi.path = path;
+    try{
+        fi.file.open(fi.path, std::ios::in | std::ios::out);
+    }
+    catch (const std::exception &e){
+        std::cerr << "Caught exception: " << e.what() << std::endl;
+    }
+}
+
+std::string FileHandler::readLine()
+{
     std::string result = "";
-    file.open(path);
-    file.seekg(offset, std::ios::beg);
-    getline(file, result);
-    offset += result.size() + 1;
-    file.close();
+    fi.file.seekg(fi.offset, std::ios::beg);
+    std::getline(fi.file, result);
+    fi.offset += result.size() + 1;
     return result;
 }
 
-void FileHandler::setPath(std::string path){
-    this->path = path;
+FileHandler::~FileHandler(){
+    fi.file.close();
+}
+
+void FileHandler::writeLine(std::string data){
+    fi.file.seekp(0, std::ios::end);
+    fi.file << '\n' + data;
+}
+
+void FileHandler::resetOffset(){
+    fi.offset = 0;
 }
