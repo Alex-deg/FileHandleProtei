@@ -1,8 +1,11 @@
 #include <iostream>
+#include "FileHandler.h"
 
 int main(){
 
-    std::cout << "Hello" << std::endl;
+    FileHandler f;
+    f.setPath("tests/test1.txt");
+    std::cout << f.readLine() << std::endl;
+    std::cout << f.readLine() << std::endl;
     return 0;
-
 }
