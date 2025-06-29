@@ -1,21 +1,17 @@
 #include "FileHandler.h"
 
-FileHandler::FileHandler(std::string path){
-    fi.path = path;
-    try{
-        fi.file.open(fi.path, std::ios::in | std::ios::out);
-    }
-    catch (const std::exception &e){
-        std::cerr << "Caught exception: " << e.what() << std::endl;
-    }
+FileHandler::FileHandler(){
+    fi.path = checkPath();
+    fi.file.open(fi.path, std::ios::in | std::ios::out);
 }
 
 std::string FileHandler::readLine()
 {
     std::string result = "";
-    fi.file.seekg(fi.offset, std::ios::beg);
     std::getline(fi.file, result);
-    fi.offset += result.size() + 1;
+    if(fi.file.eof()){
+        std::cout << "You have reached the end of the file" << std::endl;
+    }
     return result;
 }
 
@@ -29,5 +25,7 @@ void FileHandler::writeLine(std::string data){
 }
 
 void FileHandler::resetOffset(){
-    fi.offset = 0;
+    fi.file.clear();
+    fi.file.seekg(0, std::ios::beg);
+    fi.file.seekp(0, std::ios::beg);
 }

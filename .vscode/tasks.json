@@ -9,6 +9,7 @@
                 "-g",
                 "main.cpp",
                 "FileHandler.cpp",
+                "functions.cpp",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
