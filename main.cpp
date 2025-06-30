@@ -3,7 +3,7 @@
 int main(){
 
     FileHandler f;
-    unsigned char menu;
+    char menu;
     std::string message;
     do{
         system("clear");
@@ -11,7 +11,17 @@ int main(){
         std::cout << "2. FileHandler::writeLine()" << std::endl;
         std::cout << "3. FileHandler::resetOffset()" << std::endl;
         std::cout << "4. Exit" << std::endl;
-        std::cin >> menu;
+        try{
+            std::cin >> message;
+            if(message.size() > 1)
+                throw std::runtime_error("Argument is too long");
+            menu = message[0];
+            if(menu < 49 || menu > 52)
+                throw std::invalid_argument("Input is not valide number");
+        }
+        catch(const std::exception&e){
+            std::cerr << e.what() << std::endl;
+        }
         switch (menu)
         {
         case '1':{ std::cout << f.readLine() << std::endl; break; }
