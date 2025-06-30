@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "FILEHANDLERPROTEI",
+					"name" : "FileHandlerProtei",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "FILEHANDLERPROTEI::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-FILEHANDLERPROTEI-Debug-319e7bf271081e34d25c.json",
-					"name" : "FILEHANDLERPROTEI",
+					"id" : "FileHandlerProtei::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FileHandlerProtei-Debug-06ba8ca412102ca921d7.json",
+					"name" : "FileHandlerProtei",
 					"projectIndex" : 0
 				}
 			]

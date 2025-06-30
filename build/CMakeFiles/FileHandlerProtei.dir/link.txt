@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/FileHandlerProtei.dir/FileHandler.cpp.o CMakeFiles/FileHandlerProtei.dir/functions.cpp.o CMakeFiles/FileHandlerProtei.dir/main.cpp.o -o FileHandlerProtei 

@@ -1,20 +1,20 @@
 [
 {
   "directory": "/home/alex/Протей/ДЗ №2 С++/FileHandlerProtei/build",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/FILEHANDLERPROTEI.dir/main.cpp.o -c \"/home/alex/Протей/ДЗ №2 С++/FileHandlerProtei/main.cpp\"",
-  "file": "/home/alex/Протей/ДЗ №2 С++/FileHandlerProtei/main.cpp",
-  "output": "CMakeFiles/FILEHANDLERPROTEI.dir/main.cpp.o"
-},
-{
-  "directory": "/home/alex/Протей/ДЗ №2 С++/FileHandlerProtei/build",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/FILEHANDLERPROTEI.dir/FileHandler.cpp.o -c \"/home/alex/Протей/ДЗ №2 С++/FileHandlerProtei/FileHandler.cpp\"",
+  "command": "/usr/bin/c++  -I\"/home/alex/Протей/ДЗ №2 С++/FileHandlerProtei\" -g -std=gnu++17 -o CMakeFiles/FileHandlerProtei.dir/FileHandler.cpp.o -c \"/home/alex/Протей/ДЗ №2 С++/FileHandlerProtei/FileHandler.cpp\"",
   "file": "/home/alex/Протей/ДЗ №2 С++/FileHandlerProtei/FileHandler.cpp",
-  "output": "CMakeFiles/FILEHANDLERPROTEI.dir/FileHandler.cpp.o"
+  "output": "CMakeFiles/FileHandlerProtei.dir/FileHandler.cpp.o"
 },
 {
   "directory": "/home/alex/Протей/ДЗ №2 С++/FileHandlerProtei/build",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/FILEHANDLERPROTEI.dir/functions.cpp.o -c \"/home/alex/Протей/ДЗ №2 С++/FileHandlerProtei/functions.cpp\"",
+  "command": "/usr/bin/c++  -I\"/home/alex/Протей/ДЗ №2 С++/FileHandlerProtei\" -g -std=gnu++17 -o CMakeFiles/FileHandlerProtei.dir/functions.cpp.o -c \"/home/alex/Протей/ДЗ №2 С++/FileHandlerProtei/functions.cpp\"",
   "file": "/home/alex/Протей/ДЗ №2 С++/FileHandlerProtei/functions.cpp",
-  "output": "CMakeFiles/FILEHANDLERPROTEI.dir/functions.cpp.o"
+  "output": "CMakeFiles/FileHandlerProtei.dir/functions.cpp.o"
+},
+{
+  "directory": "/home/alex/Протей/ДЗ №2 С++/FileHandlerProtei/build",
+  "command": "/usr/bin/c++  -I\"/home/alex/Протей/ДЗ №2 С++/FileHandlerProtei\" -g -std=gnu++17 -o CMakeFiles/FileHandlerProtei.dir/main.cpp.o -c \"/home/alex/Протей/ДЗ №2 С++/FileHandlerProtei/main.cpp\"",
+  "file": "/home/alex/Протей/ДЗ №2 С++/FileHandlerProtei/main.cpp",
+  "output": "CMakeFiles/FileHandlerProtei.dir/main.cpp.o"
 }
 ]

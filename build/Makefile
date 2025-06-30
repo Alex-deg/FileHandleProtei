@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named FILEHANDLERPROTEI
+# Target rules for targets named FileHandlerProtei
 
 # Build rule for target.
-FILEHANDLERPROTEI: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FILEHANDLERPROTEI
-.PHONY : FILEHANDLERPROTEI
+FileHandlerProtei: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FileHandlerProtei
+.PHONY : FileHandlerProtei
 
 # fast build rule for target.
-FILEHANDLERPROTEI/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FILEHANDLERPROTEI.dir/build.make CMakeFiles/FILEHANDLERPROTEI.dir/build
-.PHONY : FILEHANDLERPROTEI/fast
+FileHandlerProtei/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FileHandlerProtei.dir/build.make CMakeFiles/FileHandlerProtei.dir/build
+.PHONY : FileHandlerProtei/fast
 
 FileHandler.o: FileHandler.cpp.o
 .PHONY : FileHandler.o
 
 # target to build an object file
 FileHandler.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FILEHANDLERPROTEI.dir/build.make CMakeFiles/FILEHANDLERPROTEI.dir/FileHandler.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FileHandlerProtei.dir/build.make CMakeFiles/FileHandlerProtei.dir/FileHandler.cpp.o
 .PHONY : FileHandler.cpp.o
 
 FileHandler.i: FileHandler.cpp.i
@@ -142,7 +142,7 @@ FileHandler.i: FileHandler.cpp.i
 
 # target to preprocess a source file
 FileHandler.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FILEHANDLERPROTEI.dir/build.make CMakeFiles/FILEHANDLERPROTEI.dir/FileHandler.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FileHandlerProtei.dir/build.make CMakeFiles/FileHandlerProtei.dir/FileHandler.cpp.i
 .PHONY : FileHandler.cpp.i
 
 FileHandler.s: FileHandler.cpp.s
@@ -150,7 +150,7 @@ FileHandler.s: FileHandler.cpp.s
 
 # target to generate assembly for a file
 FileHandler.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FILEHANDLERPROTEI.dir/build.make CMakeFiles/FILEHANDLERPROTEI.dir/FileHandler.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FileHandlerProtei.dir/build.make CMakeFiles/FileHandlerProtei.dir/FileHandler.cpp.s
 .PHONY : FileHandler.cpp.s
 
 functions.o: functions.cpp.o
@@ -158,7 +158,7 @@ functions.o: functions.cpp.o
 
 # target to build an object file
 functions.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FILEHANDLERPROTEI.dir/build.make CMakeFiles/FILEHANDLERPROTEI.dir/functions.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FileHandlerProtei.dir/build.make CMakeFiles/FileHandlerProtei.dir/functions.cpp.o
 .PHONY : functions.cpp.o
 
 functions.i: functions.cpp.i
@@ -166,7 +166,7 @@ functions.i: functions.cpp.i
 
 # target to preprocess a source file
 functions.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FILEHANDLERPROTEI.dir/build.make CMakeFiles/FILEHANDLERPROTEI.dir/functions.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FileHandlerProtei.dir/build.make CMakeFiles/FileHandlerProtei.dir/functions.cpp.i
 .PHONY : functions.cpp.i
 
 functions.s: functions.cpp.s
@@ -174,7 +174,7 @@ functions.s: functions.cpp.s
 
 # target to generate assembly for a file
 functions.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FILEHANDLERPROTEI.dir/build.make CMakeFiles/FILEHANDLERPROTEI.dir/functions.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FileHandlerProtei.dir/build.make CMakeFiles/FileHandlerProtei.dir/functions.cpp.s
 .PHONY : functions.cpp.s
 
 main.o: main.cpp.o
@@ -182,7 +182,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FILEHANDLERPROTEI.dir/build.make CMakeFiles/FILEHANDLERPROTEI.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FileHandlerProtei.dir/build.make CMakeFiles/FileHandlerProtei.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -190,7 +190,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FILEHANDLERPROTEI.dir/build.make CMakeFiles/FILEHANDLERPROTEI.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FileHandlerProtei.dir/build.make CMakeFiles/FileHandlerProtei.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -198,7 +198,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FILEHANDLERPROTEI.dir/build.make CMakeFiles/FILEHANDLERPROTEI.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FileHandlerProtei.dir/build.make CMakeFiles/FileHandlerProtei.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -209,7 +209,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... FILEHANDLERPROTEI"
+	@echo "... FileHandlerProtei"
 	@echo "... FileHandler.o"
 	@echo "... FileHandler.i"
 	@echo "... FileHandler.s"

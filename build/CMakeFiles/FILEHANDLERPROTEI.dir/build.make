@@ -83,49 +83,18 @@ CMakeFiles/FILEHANDLERPROTEI.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FILEHANDLERPROTEI.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/alex/Протей/ДЗ №2 С++/FileHandlerProtei/main.cpp" -o CMakeFiles/FILEHANDLERPROTEI.dir/main.cpp.s
 
-CMakeFiles/FILEHANDLERPROTEI.dir/FileHandler.cpp.o: CMakeFiles/FILEHANDLERPROTEI.dir/flags.make
-CMakeFiles/FILEHANDLERPROTEI.dir/FileHandler.cpp.o: /home/alex/Протей/ДЗ\ №2\ С++/FileHandlerProtei/FileHandler.cpp
-CMakeFiles/FILEHANDLERPROTEI.dir/FileHandler.cpp.o: CMakeFiles/FILEHANDLERPROTEI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/alex/Протей/ДЗ №2 С++/FileHandlerProtei/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FILEHANDLERPROTEI.dir/FileHandler.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FILEHANDLERPROTEI.dir/FileHandler.cpp.o -MF CMakeFiles/FILEHANDLERPROTEI.dir/FileHandler.cpp.o.d -o CMakeFiles/FILEHANDLERPROTEI.dir/FileHandler.cpp.o -c "/home/alex/Протей/ДЗ №2 С++/FileHandlerProtei/FileHandler.cpp"
-
-CMakeFiles/FILEHANDLERPROTEI.dir/FileHandler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FILEHANDLERPROTEI.dir/FileHandler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/alex/Протей/ДЗ №2 С++/FileHandlerProtei/FileHandler.cpp" > CMakeFiles/FILEHANDLERPROTEI.dir/FileHandler.cpp.i
-
-CMakeFiles/FILEHANDLERPROTEI.dir/FileHandler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FILEHANDLERPROTEI.dir/FileHandler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/alex/Протей/ДЗ №2 С++/FileHandlerProtei/FileHandler.cpp" -o CMakeFiles/FILEHANDLERPROTEI.dir/FileHandler.cpp.s
-
-CMakeFiles/FILEHANDLERPROTEI.dir/functions.cpp.o: CMakeFiles/FILEHANDLERPROTEI.dir/flags.make
-CMakeFiles/FILEHANDLERPROTEI.dir/functions.cpp.o: /home/alex/Протей/ДЗ\ №2\ С++/FileHandlerProtei/functions.cpp
-CMakeFiles/FILEHANDLERPROTEI.dir/functions.cpp.o: CMakeFiles/FILEHANDLERPROTEI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/alex/Протей/ДЗ №2 С++/FileHandlerProtei/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FILEHANDLERPROTEI.dir/functions.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FILEHANDLERPROTEI.dir/functions.cpp.o -MF CMakeFiles/FILEHANDLERPROTEI.dir/functions.cpp.o.d -o CMakeFiles/FILEHANDLERPROTEI.dir/functions.cpp.o -c "/home/alex/Протей/ДЗ №2 С++/FileHandlerProtei/functions.cpp"
-
-CMakeFiles/FILEHANDLERPROTEI.dir/functions.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FILEHANDLERPROTEI.dir/functions.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/alex/Протей/ДЗ №2 С++/FileHandlerProtei/functions.cpp" > CMakeFiles/FILEHANDLERPROTEI.dir/functions.cpp.i
-
-CMakeFiles/FILEHANDLERPROTEI.dir/functions.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FILEHANDLERPROTEI.dir/functions.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/alex/Протей/ДЗ №2 С++/FileHandlerProtei/functions.cpp" -o CMakeFiles/FILEHANDLERPROTEI.dir/functions.cpp.s
-
 # Object files for target FILEHANDLERPROTEI
 FILEHANDLERPROTEI_OBJECTS = \
-"CMakeFiles/FILEHANDLERPROTEI.dir/main.cpp.o" \
-"CMakeFiles/FILEHANDLERPROTEI.dir/FileHandler.cpp.o" \
-"CMakeFiles/FILEHANDLERPROTEI.dir/functions.cpp.o"
+"CMakeFiles/FILEHANDLERPROTEI.dir/main.cpp.o"
 
 # External object files for target FILEHANDLERPROTEI
 FILEHANDLERPROTEI_EXTERNAL_OBJECTS =
 
 FILEHANDLERPROTEI: CMakeFiles/FILEHANDLERPROTEI.dir/main.cpp.o
-FILEHANDLERPROTEI: CMakeFiles/FILEHANDLERPROTEI.dir/FileHandler.cpp.o
-FILEHANDLERPROTEI: CMakeFiles/FILEHANDLERPROTEI.dir/functions.cpp.o
 FILEHANDLERPROTEI: CMakeFiles/FILEHANDLERPROTEI.dir/build.make
+FILEHANDLERPROTEI: libFileHandler.a
 FILEHANDLERPROTEI: CMakeFiles/FILEHANDLERPROTEI.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/alex/Протей/ДЗ №2 С++/FileHandlerProtei/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable FILEHANDLERPROTEI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/alex/Протей/ДЗ №2 С++/FileHandlerProtei/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable FILEHANDLERPROTEI"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FILEHANDLERPROTEI.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

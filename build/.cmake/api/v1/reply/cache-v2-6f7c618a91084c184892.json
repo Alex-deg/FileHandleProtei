@@ -847,7 +847,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "FILEHANDLERPROTEI"
+			"value" : "FileHandlerProtei"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1171,6 +1171,42 @@
 		},
 		{
 			"name" : "FILEHANDLERPROTEI_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/alex/\u041f\u0440\u043e\u0442\u0435\u0439/\u0414\u0417 \u21162 \u0421++/FileHandlerProtei"
+		},
+		{
+			"name" : "FileHandlerProtei_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/alex/\u041f\u0440\u043e\u0442\u0435\u0439/\u0414\u0417 \u21162 \u0421++/FileHandlerProtei/build"
+		},
+		{
+			"name" : "FileHandlerProtei_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "FileHandlerProtei_SOURCE_DIR",
 			"properties" : 
 			[
 				{

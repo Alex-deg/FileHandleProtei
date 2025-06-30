@@ -147,7 +147,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=FILEHANDLERPROTEI
+CMAKE_PROJECT_NAME:STATIC=FileHandlerProtei
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -222,6 +222,15 @@ FILEHANDLERPROTEI_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 FILEHANDLERPROTEI_SOURCE_DIR:STATIC=/home/alex/Протей/ДЗ №2 С++/FileHandlerProtei
+
+//Value Computed by CMake
+FileHandlerProtei_BINARY_DIR:STATIC=/home/alex/Протей/ДЗ №2 С++/FileHandlerProtei/build
+
+//Value Computed by CMake
+FileHandlerProtei_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+FileHandlerProtei_SOURCE_DIR:STATIC=/home/alex/Протей/ДЗ №2 С++/FileHandlerProtei
 
 
 ########################
