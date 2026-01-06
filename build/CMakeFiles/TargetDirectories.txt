@@ -1,3 +1,0 @@
-/home/alex/Протей/ДЗ №2 С++/FileHandlerProtei/build/CMakeFiles/FileHandlerProtei.dir
-/home/alex/Протей/ДЗ №2 С++/FileHandlerProtei/build/CMakeFiles/edit_cache.dir
-/home/alex/Протей/ДЗ №2 С++/FileHandlerProtei/build/CMakeFiles/rebuild_cache.dir
